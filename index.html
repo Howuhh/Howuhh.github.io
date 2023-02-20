@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+<!--    &lt;!&ndash; Google analytics tag (gtag.js) &ndash;&gt;-->
+<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-STGLQW4BJX"></script>-->
+<!--    <script>-->
+<!--      window.dataLayer = window.dataLayer || [];-->
+<!--      function gtag(){dataLayer.push(arguments);}-->
+<!--      gtag('js', new Date());-->
+<!--      gtag('config', 'G-STGLQW4BJX');-->
+<!--    </script>-->
+
+    <!-- Title -->
+    <title>Alexander Nikulin - Tinkoff</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <h1>Alexander Nikulin</h1>
+          <p>
+            Hi there! TODO: write short note about myself!
+            <br>
+            <a href="https://github.com/howuhh">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?user=yACvnqUAAAAJ&hl=en">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/how_uhh">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="">CV</a>
+            <br><br>
+            a.p.nikulin at tinkoff dot ai
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/profile.jpg">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <button class="button is-checked" data-filter=".publication">Research</button>
+        <button class="button" data-filter=".talk">Talks</button>
+        <button class="button" data-filter=".misc">Misc</button>
+      </div>
+
+      <div class="grid">
+        <!-- Publications -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2301.13616" class="thumbnail"><img src="images/sac-rnd.png" alt=""/></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2301.13616">Anti-Exploration by Random Network Distillation</a></h3>
+            <p>
+              <!-- TODO: make author names as links to their profiles/sites -->
+              <b>Alexander Nikulin</b>, Vladislav Kurenkov, Denis Tarasov, Sergey Kolesnikov<br>
+                <i>arXiv Preprint, 2023</i><br>
+<!--                <font color="49bf9"><i>&#9733; Oral Presentation, Special Innovation Award, CoRL &#9733;</i></font><br>-->
+                <a href="https://arxiv.org/pdf/2209.07753.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;
+                <a href="https://github.com/tinkoff-ai/sac-rnd">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2211.11092" class="thumbnail"><img src="images/lb-sac.png" alt=""/></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2211.11092">Q-Ensemble for Offline RL: Don't Scale the Ensemble, Scale the Batch Size</a></h3>
+            <p>
+              <b>Alexander Nikulin</b>, Vladislav Kurenkov, Denis Tarasov, Dmitry Akimov, Sergey Kolesnikov<br>
+                <i>3rd Offline Reinforcement Learning Workshop at Neural Information Processing Systems (NeurIPS), 2022</i><br>
+                <a href="https://arxiv.org/pdf/2211.11092.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;
+                <a href="https://github.com/tinkoff-ai/lb-sac">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://github.com/tinkoff-ai/CORL" class="thumbnail"><img src="images/corl.png" alt=""/></a>
+          <div class="project-description">
+            <h3><a href="https://github.com/tinkoff-ai/CORL">CORL: Research-oriented Deep Offline Reinforcement Learning Library</a></h3>
+            <p>
+              Denis Tarasov, <b>Alexander Nikulin</b>, Dmitry Akimov, Vladislav Kurenkov, Sergey Kolesnikov<br>
+                <i>3rd Offline Reinforcement Learning Workshop at Neural Information Processing Systems (NeurIPS), 2022</i><br>
+              <font color="49bf9"><i>&#9733; 500+ stars on the Github &#9733;</i></font><br>
+                <a href="https://arxiv.org/pdf/2210.07105.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;
+                <a href="https://github.com/tinkoff-ai/CORL">Code</a>&nbsp;&nbsp;&bull;&nbsp;
+                <a href="https://www.youtube.com/watch?v=bobh5r9gIWw">IT's Tinkoff Talk</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2211.11096" class="thumbnail"><img src="images/flow.png" alt=""/></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2211.11096">Let Offline RL Flow: Training Conservative Agents in the Latent Space of Normalizing Flows</a></h3>
+            <p>
+              Dmitriy Akimov, Vladislav Kurenkov, <b>Alexander Nikulin</b>, Denis Tarasov, Sergey Kolesnikov<br>
+                <i>3rd Offline Reinforcement Learning Workshop at Neural Information Processing Systems (NeurIPS), 2022</i><br>
+                <a href="https://arxiv.org/pdf/2211.11096.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;
+                <a href="https://github.com/tinkoff-ai/cnf">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://proceedings.mlr.press/v176/kanervisto22a.html" class="thumbnail"><img src="images/minerl.png" alt=""/></a>
+          <div class="project-description">
+            <h3><a href="https://proceedings.mlr.press/v176/kanervisto22a.html">MineRL Diamond 2021 Competition: Overview, Results, and Lessons Learned</a></h3>
+            <p>
+              Anssi Kanervisto, Stephanie Milani, Karolis Ramanauskas, Nicholay Topin, Zichuan Lin,
+              Junyou Li, Jianing Shi, Deheng Ye, Qiang Fu, Wei Yang, Weijun Hong, Zhongyue Huang,
+              Haicheng Chen, Guangjun Zeng, Yue Lin, Vincent Micheli, Eloi Alonso, François Fleuret,
+              <b>Alexander Nikulin</b>, Yury Belousov, Oleg Svidchenko, Aleksei Shpilman<br>
+                <i>NeurIPS 2021 Competitions and Demonstrations Track, in Proceedings of Machine Learning Research (PMLR) 176:13-28, 2022</i><br>
+                <font color="49bf9"><i>&#9733; Awarded with a $200 prize for the <a href="https://www.aicrowd.com/challenges/neurips-2021-minerl-basalt-competition">Community Support</a> nomination &#9733;</i></font><br>
+                <a href="https://proceedings.mlr.press/v176/kanervisto22a/kanervisto22a.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1569441022000864" class="thumbnail"><img src="images/bang-gaps.png" alt=""/></a>
+          <div class="project-description">
+            <h3><a href="https://www.sciencedirect.com/science/article/pii/S1569441022000864">Machine learning models for photonic crystals band diagram prediction and gap optimisation</a></h3>
+            <p>
+              <b>Alexander Nikulin</b>, Ilya Zisman, Manfred Eich, Alexander Yu. Petrov, Alexander Itin<br>
+                <i>Photonics and Nanostructures-Fundamentals and Applications 52, 101076, 2022</i><br>
+              <a href="https://deliverypdf.ssrn.com/delivery.php?ID=838069070093069087027098111008019098066027020022033021087117037022039125020073054093016124064027025066109050053070116042094125092040051101035102085094105107065073080121084112053006011001113037040025055032076074022127004086024080011071015093004068025120074093068105092091126110074073102&EXT=pdf&INDEX=TRUE">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Talks -->
+        <div class="list-item talk" data-category="talk">
+          <p style="line-height:1.5">Most of the talks are in my native language - Russian. Soon (I hope!), presentations in English from conferences and workshops that I attend will start to appear here as well.</p>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2022</p><a href="https://meetup.tinkoff.ru/">IT's Tinkoff</a> talk presenting CORL library (<a href="https://www.youtube.com/watch?v=bobh5r9gIWw">video in russian</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Final presentation of results achieved during research internship at tinkoff.ai (<a href="https://www.youtube.com/watch?v=tYxVJjTs5e8">video in russian</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+            <p class="date">2021</p>ML seminars for students at JetBrains Research
+            [<a href="https://www.youtube.com/watch?v=H8O-k3Cdoxk">1</a>, <a href="https://www.youtube.com/watch?v=SptQhvMvqc">2</a>, <a href="https://www.youtube.com/watch?v=nIqYZ8G9nIA">3</a>, <a href="https://www.youtube.com/watch?v=bNWQZUbTBPE">4</a>]
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p style="line-height:1.5">Some random stuff will be there in the future.</p>
+        </div>
+
+      </div>
+
+      <div id="footer">Design and source code from awesome <a href="https://andyzeng.github.io">Andy Zeng's website</a>.</div>
+    </div>
+    <script>
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        stagger: 10,
+        initLayout: false,
+        getSortData: {
+          name: '.name',
+          symbol: '.symbol',
+          number: '.number parseInt',
+          category: '[data-category]',
+          weight: function( itemElem ) {
+            var weight = $( itemElem ).find('.weight').text();
+            return parseFloat( weight.replace( /[\(\)]/g, '') );
+          }
+        }
+      });
+
+      // Bind filter button click.
+      $('#filters').on( 'click', 'button', function() {
+        var filterValue = $( this ).attr('data-filter');
+        localStorage.setItem('filterValue', filterValue);
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // Change is-checked class on buttons.
+      $('.button-group').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+        });
+      });
+
+      function update_isotope() {
+        // Retrieve cached button click.
+        var defaultFilterValue = localStorage.getItem('filterValue');
+        if (defaultFilterValue == null) {
+          defaultFilterValue = ".publication"
+        }
+        $grid.isotope({ filter: defaultFilterValue });
+        var buttons = document.getElementsByClassName("button");
+        for (var currButton of buttons) {
+          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+            currButton.classList.add('is-checked');
+          } else {
+            currButton.classList.remove('is-checked');
+          }
+        }
+      }
+
+      update_isotope();
+    </script>
+  </body>
+</html>
